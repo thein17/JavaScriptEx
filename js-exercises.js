@@ -43,3 +43,24 @@ function celsiusToFahrenheit(temp){
     console.log(temp+' degree celsius = '+f+ ' degree fahrenheit');
 }
 celsiusToFahrenheit(0);
+
+function kglb(weight) {
+    let l = weight.length;
+    let lb, kg;
+    if(weight.charAt(l-1) == 'b'){
+        console.log('Converting from lb to kg');
+        lb = parseInt(weight);
+        kg = lb/2.2;
+        console.log("in kilograms" + kg);
+    }
+    if(weight.charAt(l-1) == 'g'){
+        console.log('Converting from kg to lb');
+        kg = parseInt(weight);
+        lb = kg*2.2;
+        console.log("in pounds" + lb);
+    }
+    
+    
+  
+}
+kglb('100 lb');
