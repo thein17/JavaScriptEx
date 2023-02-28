@@ -42,4 +42,4 @@ function celsiusToFahrenheit(temp){
     console.log('Ex 6: converting degrees to fahrenheit');
     console.log(temp+' degree celsius = '+f+ ' degree fahrenheit');
 }
-celsiusToFahrenheit(25);
+celsiusToFahrenheit(0);
