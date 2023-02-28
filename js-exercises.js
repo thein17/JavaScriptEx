@@ -59,8 +59,5 @@ function kglb(weight) {
         lb = kg*2.2;
         console.log("in pounds" + lb);
     }
-    
-    
-  
 }
 kglb('100 lb');
